@@ -1,0 +1,274 @@
+*{
+   
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color:  #E5E5E5;
+    align-items: center;
+    
+}
+main{
+  justify-content: center;
+    width: 471px;
+    height: 289px;
+    margin:0px auto;
+    margin-top: 10%;
+  }
+
+ .container {
+    background-color: #FCEBEB;
+    display: flex;
+    width: 471px;
+    height: 258px;
+    position: relative;
+    /* font-size: 14px; */
+}
+
+.charge{
+    display: flex;
+    flex-direction: column;
+    /* font-size: 18px; */
+    position: relative;
+}
+
+.polygon{
+    width: 162.5px;
+    height: 142px;
+    position: absolute;
+    left: 43px;
+    top: 31px;
+}
+.TATUP{
+    height: 16px;
+    width: 280px;
+    position: absolute;
+    top: 189px;
+    left: 9px;
+    /* border: 1px solid red; */
+    font-size: 14px;
+    line-height: 16.41px;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.block{
+    position: relative;
+    left: 288px;
+    top: 32px;
+    /* border: red 1px solid; */
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   height: 226px ;
+   /* width: 235px; */
+}
+.cash{
+    /* border: 1px solid green; */
+    width: 200px;
+    height: 21px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 500;
+    color: #FF4848;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align:left; 
+    
+   
+}
+.money{
+    width: 116px;
+    height: 56px;
+    font-size: 48px;
+    /* border: green 1px solid; */
+    text-align: center;
+    color: #FF4848;
+    position: absolute;
+    top: 80px;
+}
+.tank {
+    /* border: blue 1px solid; */
+    position: absolute;
+    font-size: 14px;
+    margin-top: 210px;
+    display: flex;
+   font-style: normal;
+   width: 180px;
+   height: 16px;
+   /* align-content: flex-end; */
+   text-align: end;
+   padding-left: 20px;
+   
+
+}
+.phone-number{
+ /* position: absolute; */
+ width: 150px;
+ height: 16px;
+ /* border: black 1px solid; */
+ text-align: end;
+ font-family: 'Roboto', sans-serif;
+ font-style: normal;
+}
+
+.img{
+    /* border: 1px solid green; */
+    /* margin-left: 15px */
+    position: absolute;
+}
+
+.link{
+    background-color: #FF1515;
+    text-align: center;
+    width: 471px;
+    height: 31px;
+    position: relative;
+    
+}
+
+.the-link{
+    font-size: 14px;
+    position: absolute;
+   top: 8px;
+   right: 150px;
+   color: #FFFFFF;
+   text-decoration: none;
+   width: 300px;
+   height: 16px;
+   /* border: 1px rgb(17, 110, 173) solid;  */
+   line-height: 16.41px;
+   font-weight: 500;
+   text-align: right;
+}
+
+.container2{
+    background-color: #FFFFFF;
+   position: relative;
+    width: 471px;
+    height: 258px;
+}
+.sub-container{
+     width: 471px; 
+    height: 258px;
+}
+
+.blue{
+    /* border: blue 1px solid; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 258px;
+}
+.blue-rect{
+    position: absolute;
+    width: 382px;
+    height: 59px;
+    left: 29px;
+    top: 14px;
+
+}
+.white-rect{
+    position: absolute;
+    width: 229px;
+    left: 103px;
+    top: 29px;
+}
+.pin{
+    color: #FFFFFF;
+    position: absolute;
+    line-height: 28px;
+    font-weight: 500;
+    font-size: 24px;
+    z-index: 1;
+    left: 56px;
+    top: 36px;
+}
+.polygon2{
+    height: 48px;
+    position: absolute;
+    top: 25px;
+    left: 400px;
+} 
+.instruction{
+    /* border: rebeccapurple solid 1px; */
+    position: absolute;
+    margin-top: 17%;
+    text-align: center; 
+}
+.inst{
+    width: 200px;
+    height: 21px;
+    /* border: yellowgreen 1px solid;  */
+    /* position: absolute; */
+    margin-left: 120px;
+    text-decoration: underline;
+    font-weight: 300;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21.09px;
+} 
+.dial{
+    width: 550px;
+    height: 21px;
+    margin-left: 70px;
+    line-height: 21.09px;
+   font-size: 18px;
+   text-align: left;
+   font-style: normal;
+   font-family: 'Roboto';
+}
+.enter{
+    Width: 450px;
+    Height: 21px;
+    margin-left: 100px;
+    line-height: 21.09px;
+    font-size: 18px;
+    font-style: normal;
+    text-align: left;
+    font-family: 'Roboto';
+}
+
+.money2{
+    width: 126px;
+    height: 35px;
+    /* border: red  1px solid; */
+    font-size: 36px;
+    margin-left: 160px;
+   line-height: 42.19px;
+   font-weight: 500;
+   font-family: 'Roboto';
+}
+.bottom{
+    position: absolute;
+    height: 52px;
+    top: 187px;
+    display: flex;
+    border: 1px solid #AAA6A6;
+    border-left: 0px;
+    border-right: 0px;
+    font-weight: 400;
+    font-size: 13px;
+    width: 472px;
+}
+.right-cnt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    padding-left: 30px;
+    font-size: 13px;
+    width: 200px;
+    height: 15px;
+
+}
+.barcode{
+  padding-left: 150px;
+    padding-top: 20px;
+    width: 120px;
+    height: 24px;
+}
